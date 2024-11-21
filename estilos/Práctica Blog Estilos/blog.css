@@ -1,0 +1,192 @@
+/*Importamos la fuente*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    line-height: 1.6; /*Porcentaje de espaciado*/
+    font-family: "Montserrat";
+    font-size: 16px;
+}
+
+.container{
+    width: 95%; /*Abarca el 95% del ancho de la página*/
+    margin: 0 auto;
+}
+
+.container-header{
+    display: flex; /*Alinea los elementos (uno seguido de otro)*/
+    justify-content: space-between; /*Acomoda los elementos (dándole el mismo espacio a cada elemento)*/
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 2px solid #b5e0f1; /*grosor de la línea, tipo de línea, color de la línea*/
+}
+
+/*LOGO*/
+#logo{
+    color: #18a0fb;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/*MENÚ*/
+.menu-nav ul{ /*Combino 2 selectores.*/
+    list-style: none;
+}
+.menu-nav li{
+    display: inline;
+    margin-left: 15px;
+}
+.menu-nav a{
+    color: #18a0fb;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/*FORMULARIO BUSCAR*/
+.formulario{
+    display: flex;
+    align-items: center;
+}
+#buscador-header{
+    border: 1px solid #18a0fb;
+    border-radius: 5px;
+}
+#buscador-header button{
+    padding: 8px;
+    font-size: 12px;
+    font-family: "Montserrat";
+    color: #fff;
+    background-color: #18a0fb;
+    border: none; /*Quitamos el estilo que trae por defecto que es un borde*/
+}
+#buscador-header input{
+    padding: 6px;
+    border: none;
+    font-size: 12px;
+}
+
+/*RESEÑAS*/
+section{
+    padding-top: 20px;
+}
+
+.text-blue-2{
+    color: #b5e0f1;
+}
+
+.text-gray{
+    color: #a0a0a0;
+}
+
+h1{
+    font-size: 32px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.text-blue-1{
+    color: #18a0fb;
+}
+
+.font-18{
+    font-size: 18px;
+}
+
+/*ESTILOS IMÁGEN*/
+.img-article img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover; /*Propiedad para ajustar la imágen (hace que se vea bien pero recorta la img)*/
+    margin-top: 20px;
+}
+
+/*ESTILOS PÁRRAFOS*/
+.text-article{
+    padding-bottom: 30px;
+    border-bottom: 2px solid #b530f1;
+}
+
+.text-article p{
+    padding-top: 30px;
+    font-size: 14px;
+    padding: 6px 0;
+    text-align: justify;
+}
+
+/*COMPARTIR*/
+.text-black{
+    color: #000;
+}
+.font-22{
+    font-size: 22px;
+}
+
+.list-share{
+    display: inline-block;
+    list-style: none;
+    margin-left: 16px;
+}
+
+.list-share li{
+    display: inline;
+    margin-left: 10px;
+}
+
+.list-share li a{
+    font-size: 32px;
+    color: #a0a0a0;
+    text-decoration: none;
+}
+
+/**/
+.etiquetas span{
+    background-color: #e8e6e6;
+    color: #a0a0a0;
+    font-size: 12px;
+    margin-right: 20px;
+    padding: 10px 20px 10px;
+    border-radius: 12px;
+}
+
+/**/
+.redes{
+    display: flex;
+    justify-content: space-between;
+}
+
+.etiquetas{
+    padding-top: 20px;
+}
+
+/*FOOTER*/
+footer{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #333333;
+}
+#logo-white{
+    color: #fff;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.menu-nav-footer ul{
+    list-style: none;
+}
+.menu-nav-footer ul li{
+    display: inline;
+    margin-right: 50px;
+}
+.menu-nav-footer ul li a{
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+.text-white{
+    color: #fff;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+}
