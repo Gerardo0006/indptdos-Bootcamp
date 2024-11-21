@@ -4,29 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Tarea</title>
-    <style>
+    <!-- <style>
         .parrafo{
             text-align: justify;
         }
-    </style>
+    </style> -->
+    <link rel="stylesheet" href="estilos.css">
 </head>
 <body>
-    <h1>
-        Los Paisajes de México
-    </h1>
-
-    <div>
-        <nav>
-            <a href="#">Inicio</a>
-            <a href="#">Artículos</a>
-            <a href="#">Conoce más</a>
-        </nav>
-    </div>
+    <header>
+        <div class="container">
+            <h1>
+                Los Paisajes de México
+            </h1>
+            <div>
+                <nav class="menu-nav">
+                    <ul>
+                        <li>
+                            <a href="#">Inicio</a>
+                        </li>
+                        <li>
+                            <a href="#">Artículos</a>
+                        </li>
+                        <li>
+                            <a href="#">Conoce más</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
 
     <section>
         <div>
             <h2>
-                Sierra Madre Occidental
+                La Sierra Madre Occidental
             </h2>
             <p class="parrafo">
                 La Sierra Madre Occidental es una cadena montañosa que abarca todo el noroeste mexicano y el extremo suroccidental de los Estados Unidos. En sus 1500 km de largo recorre Arizona, parte de Sonora, Chihuahua, Sinaloa, Durango, Nayarit, Zacatecas, Aguascalientes y Jalisco, lugar donde se une al Eje Volcánico Transversal de México. La sierra tiene una extensión de 289 000 km² y ocupa la sexta parte del territorio mexicano. Su anchura en promedio es de 150 km, con alturas de hasta 3000 metros sobre el nivel del mar. ​Transversalmente, estas sierras son atravesadas por el Ferrocarril de Chihuahua al Pacífico y un Tren Turístico también llamado Chepe. El terreno es escarpado en varias regiones, lo que hace que las variaciones de temperatura sean extremas. En la cima de las barrancas, el clima es frío (llegando en invierno a los -20 °C y en verano a los 20 °C de promedio), y en el valle templado o cálido (en invierno 10 °C de promedio, alcanzando los 40 °C en verano).
@@ -35,7 +47,9 @@
             <p class="parrafo">
                 La Sierra Madre Occidental es el pulmón de la zona norte de México; cubierta por grandes bosques mixtos de pino-encino, de pinos, encinas y oyamel, en los últimos años ha sufrido un grave deterioro. La cadena alberga numerosas especies endémicas, con una amplia variedad de flora y fauna. Según el Biodiversity Management of the Madrean Archipelago Report de 1994, hasta esa fecha la Sierra Madre Occidental contaba con más de siete mil especies de plantas, de las cuales cuatro mil eran endémicas. Mientras que otras zonas boscosas del mundo cuentan sólo con cuatro o cinco especies de pinos en cada ecosistema, en la Sierra Madre Occidental se encuentran quince diferentes, más unas 25 de encinas. Sin embargo, la tala forestal inmoderada de los últimos 120 años ha deteriorado considerablemente el ecosistema, acabando con numerosas especies y poniendo a otras al borde de la extinción. Estudios realizados por J. Martjan Lammertink, Jorge A. Rojas Tomé, Federico M. Casillas Orona y Roger L. Otto permitieron determinar que prácticamente todo el bosque de la Sierra Madre Occidental ha sido sometido a programas de aprovechamiento forestal.
             </p>
-            <img src="images/SierraMadre.jpg" alt="">
+            <div class="centrar-img">
+                <img src="images/SierraMadre.jpg" alt="">
+            </div>
         </div>
 
         <div class="Huasteca-Potosina">
@@ -53,7 +67,9 @@
             <p class="parrafo">
                 En la huasteca centro es donde podrás encontrar la mayor parte del ecoturismo pues al ser el centro de este maravilloso lugar es el corazón de la huasteca. Si bien en el corazón de la huasteca encontrarás la mayor parte del ecoturismo también encontrarás una maravillosa y única arquitectura, museos y centros comerciales. En la parte sur despertarás tus sentidos con sus maravillas naturales, la magia de su arquitectura y la riqueza de su gastronomía. No hay nada parecido a la región sur de la Huasteca para deleitarte con la naturaleza de una manera inolvidable.
             </p>
-            <img src="images/Huasteca.jpg" alt="">
+            <div class="centrar-img">
+                <img src="images/Huasteca.jpg" alt="">
+            </div>
         </div>
     </section>    
 
@@ -65,10 +81,13 @@
             <p class="parrafo">
                 Soy Gerardo Macías, Ingeniero en Sistemas Computacionales y apasionado de la Tecnología. Me interesa el mundo del desarrollo de Software y los Alogoritmos.
             </p>
-            <p>
-                &copy; 2024 Mi Blog/Portfolio. ISC Gerardo Macías. Derechos reservados.
-            </p>
         </div>
     </section>
+
+    <footer>
+        <p>
+            &copy; 2024 Mi Blog/Portfolio. ISC Gerardo Macías. Derechos reservados.
+        </p>
+    </footer>
 </body>
 </html>
