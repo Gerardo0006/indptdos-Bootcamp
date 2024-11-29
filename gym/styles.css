@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&family=Dancing+Script:wght@400..700&family=Parkinsans:wght@300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header{
+    display: flex;
+    /* background-color: red; */
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 0 150px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+#titulo-logo{
+    font-family: "Bruno Ace SC";
+    color: #ffffff;
+    font-size: 25px;
+}
+.titulo-logo-7{
+    font-family: "Bruno Ace SC";
+    color: #ffff33;
+    margin-left: 0;
+    padding: 0;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-bar a{
+    color: #ffffff;
+    margin-left: 60px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* .forma-btn{
+    border-radius: 20px;
+} */
+.forma-btn{
+    background-color: #ffff33;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 15px 50px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #000000;
+    margin-left: 100px;
+}
+
+/* .img-banner-principal{
+    height: 1080px;
+} */
+
+.baner-principal{
+    height: 750px; /*Investigar cómo ajustar la img con porcentajes*/
+    background-image: url("img/portada-gimnasio.png");
+    background-size: contain; /*Al usar cover la img se vuelve muy ancha y no se ve como en el pdf*/
+}
+main p{
+    color: #ffffff;
+    font-size: 55px;
+    font-weight: 500;
+    width: 50%;
+    padding-top: 210px;
+    padding-left: 50px;
+    background-color: transparent;
+    margin-bottom: 80px;
+}
+main a{
+    margin-left: 50px;
+    margin-top: 80px;
+}
+
+#razones{
+    margin-left: 200px;
+    margin-bottom: 50px;
+}
+.titulo-razones{
+    font-family: "Archivo Black", sans-serif;
+    font-size: 45px;
+    color: #ffffff;
+    margin-bottom: 50px;
+}
+
+.cards-1{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    font-weight: bold;
+}
+.cards-2{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    font-weight: bold;
+}
+.titulo-card{
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.description-card{
+    color: #ffffff;
+    width: 65%;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.row{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+    margin: 30px;
+}
+
+#membresias{
+    margin-top: 300px;
+    color: #ffffff; 
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+}
+#membresias > p{
+    margin-bottom: 100px;
+}
+.contenedor-card-membresias{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.card-membresias{
+    background-color: #212121;
+    width: 30%;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+.header-card{
+    background-color: #212121;
+    width: 30%;
+    border-radius: 10px 10px 0 0;
+}
+.body-card{
+    background-color: #212121;
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 0 0 10px 10px;
+    font-size: 12px;
+}
