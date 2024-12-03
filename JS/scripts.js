@@ -30,3 +30,18 @@ function listaDeAnimales(){
 animalesEnElZoologico[animalesEnElZoologico.length] = "Pingüino";
 /*Mandamos llamar a la función */
 listaDeAnimales();
+
+console.log("-------------------");
+
+function suma(a, b){
+    return a+b;
+}
+function resta(a, b){
+    return a-b;
+}
+function producto(a, b){
+    return a*b;
+}
+function division(a, b){
+    return a/b;
+}
