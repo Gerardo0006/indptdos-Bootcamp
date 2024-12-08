@@ -1,0 +1,36 @@
+*{
+    margin: 0 auto;
+}
+div img{
+    height: 25%;
+}
+header{
+    width: 100%;
+    display: flex;
+    align-content: space-between;
+}
+nav a{
+    color: #000000;
+    display: inline-flex;
+    text-decoration: none;;
+}
+.main-menu{
+    width: 80%;
+    /* display: flex;
+    align-content: space-between; */
+}
+ul{
+    display: flex;
+    align-content: space-between;
+}
+li{
+    text-decoration: none;
+}
+
+.banner-principal{
+    /* background-image: url("assets/inicio.gif");
+    background-position: center 25%;
+    background-size: cover; */
+    background-color: red;
+    height: 300px;
+}
