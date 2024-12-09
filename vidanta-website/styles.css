@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 *{
     margin: 0 auto;
+    font-family: 'Montserrat';
+    background-color: black;
 }
 div img{
     height: 25%;
@@ -10,22 +15,24 @@ header{
     align-content: space-between;
 }
 nav a{
-    color: #000000;
+    color: #ffffff;
     display: inline-flex;
-    text-decoration: none;;
+    text-decoration: none;
 }
 .main-menu{
     width: 80%;
-    /* display: flex;
-    align-content: space-between; */
+    font-weight: 600;
+    font-size: 13px;
+    margin-top: 20px;
 }
 ul{
     display: flex;
     align-content: space-between;
+    list-style: none;
 }
-li{
+/* li{
     text-decoration: none;
-}
+} */
 
 .banner-principal{
     /* background-image: url("assets/inicio.gif");
