@@ -1,28 +1,60 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
     margin: 0 auto;
-    font-family: 'Montserrat';
-    background-color: black;
+    font-family: 'Nunito';
+    /* background-color: black; */
 }
-div img{
-    height: 25%;
+
+#vv-logo img{
+    height: 7%;
+    margin-top: 15px;
+    margin-left: 25px;
+    /* margin-right: 55px; */
 }
-header{
+header {
     width: 100%;
+    height: 100vh;
     display: flex;
-    align-content: space-between;
+    /* align-items: center; */
+    /* justify-content: center; */
+    /* align-content: space-between; */
+    position: relative;  /* Aseguramos que el contenido esté por encima del pseudo-elemento */
+    /*color: white;*/ /* Asegura que el texto sea visible */
+}
+header::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url(assets/img/inicio.gif); /* Imagen de fondo */
+    background-size: cover;
+    filter: brightness(50%); /* Aplica el filtro solo a la imagen */
+    z-index: -1; /* Coloca la imagen oscurecida detrás del contenido */
+}
+
+header > div,
+nav.main-menu {
+    position: relative;  /* Hace que el contenido esté por encima del pseudo-elemento */
+    z-index: 1;  /* Asegura que el contenido esté por encima de la imagen oscurecida */
 }
 nav a{
     color: #ffffff;
     display: inline-flex;
     text-decoration: none;
 }
+#ops-menu{
+    margin-top: 20px;
+    margin-left: -150px;
+}
 .main-menu{
+    position: relative;
+    z-index: 1;
     width: 80%;
-    font-weight: 600;
-    font-size: 13px;
+    font-weight: bold;
+    font-size: 15px;
     margin-top: 20px;
 }
 ul{
@@ -30,14 +62,114 @@ ul{
     align-content: space-between;
     list-style: none;
 }
-/* li{
-    text-decoration: none;
-} */
+#idioma{
+    display: none;
 
-.banner-principal{
-    /* background-image: url("assets/inicio.gif");
-    background-position: center 25%;
-    background-size: cover; */
-    background-color: red;
-    height: 300px;
+}
+#titulo-principal{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: transparent;
+    margin-top: -450px;
+}
+#titulo-principal h1{
+    font-family: 'Libre Bodoni';
+    color: #ffffff;
+    font-size: 70px;
+}
+
+#personalizada-viajar{
+    margin-top: 275px;
+    background-image: url(assets/img/bienvenido.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+}
+#segunda-seccion{
+    padding-top: 80px;
+    width: 50%;
+    /* align-content: center; */
+}
+#segunda-seccion h2{
+    color: #205375;
+    font-family: 'Libre Bodoni';
+    font-size: 40px;
+    width: 50%;
+    text-align: center;
+    padding: 0 50px;
+    padding-bottom: 70px;
+}
+#segunda-seccion p{
+    width: 75%;
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+.btn-conozca{
+    background-color: #66AAA0;
+    color: #ffffff;
+    padding: 8px 25px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.cursiva{
+    font-family: 'Libre Bodoni';
+    font-style: italic;
+}
+
+#lujo-en-el-mar{
+    margin-bottom: -250px;
+}
+#lujo-en-el-mar h2{
+    color: #205375;
+    font-family: 'Libre Bodoni';
+    font-size: 40px;
+    /* width: 50%; */
+    text-align: center;
+    padding: 50px 0;
+    /* padding-bottom: 70px; */
+}
+#tercera-seccion{
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets/img/elegant.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#tercera-seccion img{
+    float: right; /*Nueva propiedad aprendida. Sirve para mover elementos a la izquierda o derecha, en este caso fue una img a la derecha*/
+    margin-top: 155px;
+    margin-right: 95px;
+    transform: scale(0.8);
+}
+#tercera-seccion button{
+    float: right; /*Nueva propiedad aprendida. Sirve para mover elementos a la izquierda o derecha, en este caso fue una img a la derecha*/
+    margin-top: 345px;
+    margin-right: -300px;
+}
+
+#destinos{
+    width: 100%;
+}
+#destinos h2{
+    font-family: 'Libre Bondoi';
+    color: #205375;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 0px;
+    padding: 20px 0;
+}
+#destinos div{
+    width: 90%;
+}
+#destinos p{
+    font-size: 20px;
+    text-align: center;
 }
