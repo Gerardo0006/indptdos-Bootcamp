@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vidanta</title>
+    <link rel="icon" type="image/jpg" href="assets/favicon.ico"/> <!-- Favicon-->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous"> <!-- Iconos FontAwesome-->
+    <link rel="stylesheet" href="url-to-cdn/splide.min.css"> <!-- Librería slides-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css"> <!-- Librería slides-->
 </head>
 <body>
-    <header>
+    <header class="scrolled">
         <div id="vv-logo">
             <img src="assets/vv-logo.png" alt="">
         </div>
@@ -82,11 +86,204 @@
                 una serie de extraordinarios resorts de playa que ofrecen lo mejor en gastronomía, 
                 entretenimiento, belleza natural y relajación
             </p>
+        </div>  
+        <section class="splide" aria-label="Splide Basic HTML Example">
+            <div class="splide__track">
+                <ul class="splide__list">
+                    <li class="splide__slide">
+                        <img src="assets/destinos/nuevo-nayarit-vallarta.jpg" alt="Imagen 1">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/riviera-maya.jpg" alt="Imagen 2">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/los-cabos.jpg" alt="Imagen 3">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/east-cape.webp" alt="Imagen 4">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/acapulco.jpg" alt="Imagen 5">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/puerto-penasco.jpg" alt="Imagen 6">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/puerto-vallarta.jpg" alt="Imagen 7">
+                    </li>
+                    <li class="splide__slide">
+                        <img src="assets/destinos/mazatlan.jpg" alt="Imagen 8">
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </section>
+
+    <section id="hoteles-resort">
+        <div id="quinta-seccion">
+            <h2>HOTELES <span class="cursiva">RESORT</span></h2>
+            <p id="parrafo-1">
+                Usted y su familia, merecen unas vacaciones que reflejen su estilo de vida.
+            </p>
+            <p id="parrafo-2">
+                Por ello, contamos con una selección de hoteles resort, cada uno con experiencias inolvidables.
+            </p>
+        </div>
+        <div class="contenedor-hoteles">
+            <div class="item-hoteles">
+                <img src="assets/hoteles/the-estates.jpg" alt="">
+            </div>
+            <div class="item-hoteles">
+                <img src="assets/hoteles/grand-luxxe.jpg" alt="">
+            </div>
+            <div class="item-hoteles">
+                <img src="assets/hoteles/the-grand-bliss.jpg" alt="">
+            </div>
+            <div class="item-hoteles">
+                <img src="assets/hoteles/the-grand-mayan.jpg" alt="">
+            </div>
+            <div class="item-hoteles">
+                <img src="assets/hoteles/the-bliss.jpg" alt="">
+            </div>
+            <div class="item-hoteles">
+                <img src="assets/hoteles/mayan-palace.jpg" alt="">
+            </div>
+            <div class="item-hoteles">
+                <img src="assets/hoteles/sea-garden.jpg" alt="">
+            </div>
+        </div>
+    </section>
+
+    <section id="experiencias-extraordinarias">
+        <div id="sexta-seccion">
+            <h2>EXPERIENCIAS <span class="cursiva">EXTRAORDINARIAS</span></h2>
+            <button class="btn-conozca">CONOZCA MÁS</button>
         </div>
     </section>
 
 
+    
+    <section id="hoteles-eventos">
+        <div id="septima-seccion">
+            <section class="splide ultimo-slider" aria-labelledby="carousel-heading">
+                <!-- <h2 id="carousel-heading">Basic Structure Example</h2> -->
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="item-experiencias">
+                                <div id="item-golf">
+                                    <img src="assets/experiencias/vidanta-golf.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/experiencias/vidanta-golf-logo.png" alt="" id="logo-golf">
+                                    <hr><br>
+                                    <p>Sports</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="item-experiencias">
+                                <div id="item-golf">
+                                    <img src="assets/experiencias/jungala.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/experiencias/jungala-logo.png" alt="" id="logo-golf">
+                                    <hr><br>
+                                    <p>Familiar</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="item-experiencias">
+                                <div id="item-golf">
+                                    <img src="assets/experiencias/cirque-du-soleil.jpg" alt="">
+                                </div>
+                                <div>
+                                    <img src="assets/experiencias/cirque-du-soleil-logo.png" alt="" id="logo-golf">
+                                    <hr><br>
+                                    <p id="familiar-gourmet">Familiar Gourmet</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            
+        </div>
+    </section>
 
+    <section id="final">
+        <div id="octava-seccion">
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-footer">
+            <div class="columna-footer">
+                <ul>
+                    <li>
+                        <a href="#">Pagos</a>
+                    </li>
+                    <li>
+                        <a href="#">Contáctenos</a>
+                    </li>
+                    <li>
+                        <a href="#">Conozca Vida Vacations</a>
+                    </li>
+                    <li>
+                        <a href="#">Experiencias Extraordinarias</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="columna-footer">
+                <ul>
+                    <li>
+                        <a href="#">Aviso de Privacidad</a>
+                    </li>
+                    <li>
+                        <a href="#">Prevención de Fraudes</a>
+                    </li>
+                    <li>
+                        <a href="#">Sorteos y promociones</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="columna-footer">
+                <img src="assets/vv-logo-dorado.png" alt="">
+            </div>
+            <div class="columna-footer">
+                <ul>
+                    <li>
+                        <a class="elementos-en-bloque" href="#"><span>México:</span> 800-366-66-00</a>
+                    </li>
+                    <li>
+                        <a class="elementos-en-bloque" href="#"><span>E.U.A y Canadá:</span> 1-800-292-9446</a>
+                    </li>
+                    <li>
+                        <a class="elementos-en-bloque" href="#"><span>Resto del mundo:</span> +52 (322) 176-0660</a>
+                    </li>
+                </ul>
+            </div>
+            
+            <div class="columna-footer">
+                <ul>
+                    <li>
+                        <a class="elementos-en-bloque" href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
+                    </li>
+                    <li>
+                        <a class="elementos-en-bloque" href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li>
+                        <a class="elementos-en-bloque" href="#"><i class="fab fa-youtube"></i>Youtube</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <p id="derechos-reservados">
+            &copy; 2024 Vida Vacations | Todos los derechos reservados.
+        </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script> <!-- Librería slides-->
     <script src="scripts.js"></script>
 </body>
 </html>
