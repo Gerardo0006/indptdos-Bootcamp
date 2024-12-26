@@ -288,6 +288,7 @@ hr{
 
 footer{
     width: 100%;
+    padding-bottom: 80px;
     /* margin: 0 auto;
     display: flex;
     align-content: space-between; */
@@ -295,12 +296,19 @@ footer{
 .columnas-footer{
     color: #ffffff;
     font-family: "Montserrat", sans-serif;
+    font-weight: 600;
     margin: 5px 20px;
     width: 33%;
     text-align: left;
 }
+#col-izquierda #titulo-logo{
+    font-weight: 400;
+}
+.columnas-footer p, a{
+    font-size: 13px;
+}
 #contenedor-footer{
-    background-color: red;
+    /* background-color: red; */
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -308,4 +316,30 @@ footer{
 }
 .titulos-columnas-footer{
     margin-bottom: 20px;
+}
+#col-centro{
+    margin-left: 150px;
+}
+#tel-correo i{
+    margin-left: 5px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+#tel-correo a{
+    text-decoration: none;
+    color: #ffffff;
+}
+#social-media{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /* justify-content: space-between; */
+    /* justify-content: left; */
+    align-items: left;
+    /*align-content: center;
+    text-align: center; */
+}
+#social-media i{
+    font-size: 40px;
+    margin: 10px 10px;
 }
