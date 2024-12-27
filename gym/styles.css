@@ -88,6 +88,9 @@ main a{
     color: #ffffff;
     margin-bottom: 50px;
 }
+#img-7-estaciones{
+    scale: 0.6;
+}
 
 .cards-1{
     width: 100%;
@@ -140,7 +143,7 @@ main a{
 .card-membresias{
     background-color: #212121;
     width: 30%;
-    margin: 0 10px;
+    margin: 0 25px;
     border-radius: 10px;
     /* display: flex;
     align-content: space-between; */
@@ -165,9 +168,9 @@ hr{
     background-color: transparent;
 }
 .body-card{
-    height: 200px;
+    height: 150px;
     background-color: #212121;
-    margin: 10px 15px;
+    margin: 25px 15px;
     width: 75%;
     border-radius: 0 0;
     font-size: 12px;
@@ -176,10 +179,19 @@ hr{
     text-align: left;
     line-height: 1.5;
 }
+.body-card p{
+    margin-top: -20px;
+    margin-left: 20px;
+    line-height: 1.5;
+    background-color: transparent;
+    width: 100%;
+}
 .footer-card{
     background-color: #212121;
     padding-bottom: 10px;
     border-radius: 0 0 10px 10px;
+    margin-top: -10px;
+    margin-bottom: 20px;
 }
 .btn-card-compra{
     background-color: #ffff33;
